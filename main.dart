@@ -70,6 +70,7 @@ class Labapp extends StatelessWidget {
               height: 15,
             ),
             Container(
+              margin: EdgeInsets.only(left: 10, right: 10, bottom: 30),
               child: Text(
                 "hi",
                 style: TextStyle(color: Colors.black, fontSize: 20),
@@ -81,9 +82,6 @@ class Labapp extends StatelessWidget {
                       fit: BoxFit.fitHeight,
                       image: NetworkImage(
                           "https://lh3.googleusercontent.com/G4UzG-dhRB_1EjcsrJ7Ki1UxSD1qpUsTLOKUXAPPwanugJEjVBIsL2SSd1MWxVkTtU4wzHFu_rQlh_rwn6spPtkm1cWx2I69Fvia6G74gBbRCwGQk0NoBuvxqGZuX3OyBW7YfxFJFklKgEOGBY1HhaSLJd33NSHz2568pzz59X9DdW6O97P1Msj_O_7wN5u25D_guPkRWMxFiND7k-L4CtEs3m5iG4OLw_caKlhmbUEwXsAtj2t0W-VpMC8hJD5ja40Q1VG6_ejvsiz4XLywzKWZzo1D29j9088ftdOGEwaqwAKtehYBe3-XHR-ftXXNoI2khEEcCfndO4xTgUwKKhvCroIA-jAyxkkoPqu46qmXDgTP4zCq6PTfOoaAHMInRKCazLfhghIM9xS08bvWyO1oe5iQ_sAVi9nJW0ByfKOR4rTHpj_HP6QZuECFRPK-n_31u4pjzmA4QXV7U_yQaSRPQLkT2sPzvdU0EshR03h4PIuZn75XLfNljbNtwrIQOFD40U6DRtd0wyG0cfeNYKMWpXWHVuoPfupUFXZFfg5YVBGO_VJfGiSOQF_Ekkmo_fjZCeM3l4oWbWppQSS79NqHAiAw_xPIs3MOFD_3fDt_eZYdZDOB5e0QYFAIGRs3dktnWDv3FTpk-z_e3BvuaFQMxgYGOjY2Y1ZQCcesz3pn9zZnmhZCpcL2RQ8bkqUI9_7sgnnIoIln6ChXDRMfkDb4KY445xrXanr-wZ_aXc3BSJc6quAAggWxmGR6RA=w823-h617-no?authuser=0"))),
-            ),
-            Divider(
-              height: 15,
             ),
             Row(
               children: [
